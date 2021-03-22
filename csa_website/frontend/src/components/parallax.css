@@ -1,0 +1,40 @@
+.parallax {
+    /* The image used */
+    background-image: url('../../../media/ariel-view.jpg');
+  
+    /* Set a specific height */
+    min-height: 700px;
+    min-width: 1300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+.parallax {
+    background-attachment: scroll;
+}
+}
+
+.bottom-text {
+    height: 1000px;
+    background-color:white;
+}
+
+.top-text {
+    margin-bottom: 300px;
+}
+
+.typeContainer {
+    background-image: url('../../../media/wide-image.jpg');
+    background-size: 1260px 425px;
+    min-width: 1260px;
+    min-height: 425px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
